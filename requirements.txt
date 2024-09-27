@@ -1,0 +1,10 @@
+huggingface_hub==0.22.2
+IPython
+google-generativeai
+langchain-google-genai
+chromadb 
+pypdf
+langchain
+langchain-community
+gradio
+faiss-cpu
