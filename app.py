@@ -94,7 +94,7 @@ def to_markdown(text):
 
 
 # Prompt the user to enter the API key
-GOOGLE_API_KEY = 'AIzaSyBs7fa0hdQsl2cPEQYwLhsO5INKQZxt0Vk'
+GOOGLE_API_KEY = 'your_api_key'
 
 # Store the API key as an environment variable
 os.environ['GOOGLE_API_KEY'] = GOOGLE_API_KEY
