@@ -32,13 +32,13 @@ def to_markdown(text):
 
 
 # Prompt the user to enter the API key
-GOOGLE_API_KEY ='AIzaSyDro7A5ky_aURZeBbFC_nJdGES2Q1svQNc'#'AIzaSyBs7fa0hdQsl2cPEQYwLhsO5INKQZxt0Vk'
+GOOGLE_API_KEY =''
 
 # Store the API key as an environment variable
 os.environ['GOOGLE_API_KEY'] = GOOGLE_API_KEY
 
 # Retrieve the stored API key
-GOOGLE_API_KEY = os.environ.get('GOOGLE_API_KEY')#'AIzaSyBs7fa0hdQsl2cPEQYwLhsO5INKQZxt0Vk'  #AIzaSyAp_54Vs7Ur6OmXxRhz_60ndtBmcDQMDjA
+GOOGLE_API_KEY = os.environ.get('GOOGLE_API_KEY')
 genai.configure(api_key=GOOGLE_API_KEY)
 #model = genai.GenerativeModel(model_name = "gemini-pro")
 #llm = ChatGoogleGenerativeAI(model="gemini-pro",google_api_key=GOOGLE_API_KEY)
